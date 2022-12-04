@@ -27,17 +27,19 @@ void getArrayCubes(int[] arr, int num)
     for (int i = 0; i < num; i++)
     {
 
-        arr[i] = (int)Math.Pow(i+1, 3);
+        arr[i] = (int)Math.Pow(i + 1, 3);
 
     }
 
 }
 
-void printArrayConsole(int[] arr){
+void printArrayConsole(int[] arr)
+{
 
-    for(int i= 0; i< arr.Length; i++){
+    for (int i = 0; i < arr.Length; i++)
+    {
         Console.Write(arr[i]);
-        if(i < arr.Length - 1) Console.Write(", ");
+        if (i < arr.Length - 1) Console.Write(", ");
     }
 
 }
